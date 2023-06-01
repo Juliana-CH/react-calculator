@@ -1,0 +1,19 @@
+button {
+    width: 3rem;
+    height: 3rem;
+    margin: .3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(187, 187, 187);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: black;
+    border-radius: 1rem;
+    margin: .3rem;
+    padding: 1rem;
+}
