@@ -1,5 +1,9 @@
+body {
+    background-color: #cacaca;
+}
 .calculator-container {
-    font-family: 'Arial';
+    font-family: 'Helvetica';
+    color:#565656;
 }
 
 button {
@@ -43,6 +47,6 @@ button:hover {
     color: #fff;
     display: flex;
     justify-content: flex-end;
-    padding-right: 2.2rem;
+    margin: 2rem;
     padding-top: 2rem;
 }

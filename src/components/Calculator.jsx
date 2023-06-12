@@ -42,13 +42,13 @@ export default function Calculator() {
 
     function calculate() {
         if ( operator === '/') {
-            setNum ( parseFloat(firstNum) / parseFloat(num));
+            setNum ( (parseFloat(firstNum) / parseFloat(num)).toFixed(2));
         } else if ( operator === 'x') {
-            setNum ( parseFloat(firstNum) * parseFloat(num));
+            setNum ( (parseFloat(firstNum) * parseFloat(num)).toFixed(2));
         } else if ( operator === '+') {
-            setNum ( parseFloat(firstNum) + parseFloat(num));
+            setNum ( (parseFloat(firstNum) + parseFloat(num)).toFixed(2));
         } else if ( operator === '-') {
-            setNum ( parseFloat(firstNum) - parseFloat(num));
+            setNum ( (parseFloat(firstNum) - parseFloat(num)).toFixed(2));
         }
     };
     
